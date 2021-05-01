@@ -1,0 +1,213 @@
+@font-face {
+    font-family: "BebasNeueBold";
+    src: url("../fonts/BebasNeueBold.eot");
+    src: url("../fonts/BebasNeueBold.woff") format("woff"),
+    url("../BebasNeueBold.otf") format("opentype"),
+    url("../fonts/BebasNeueBold.svg#filename") format("svg");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    box-sizing: unset;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: Arial, Helvetica, Tahoma, Verdana, sans-serif;
+    font-size: 16px;
+    background: white;
+    color: black;
+}
+
+h3 {
+    font-family: 'BebasNeueBold', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 20px;
+}
+
+h2 {
+    font-family: 'BebasNeueBold', sans-serif;
+    font-size: 26px;
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+h1 {
+    font-family: 'BebasNeueBold', sans-serif;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+p {
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+button {
+    border-radius: .25rem;
+}
+
+.above-logo {
+    background-color: white;
+    text-align: center;
+    padding: 0;
+    height: 50px;
+}
+
+.above-logo img {
+    display: inline-block;
+    height: 30px !important;
+    padding-top: 5px;
+}
+
+.content-wrapper {
+    padding-top: 5px;
+    padding-bottom: 60px;
+    line-height: 1.2;
+}
+
+.index-wrapper {
+    padding: 20px 0 10px 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.index-wrapper p {
+    font-size: 20px;
+}
+
+.index-wrapper ul > li {
+    padding: 4px 0;
+}
+
+.back-button {
+    border: none;
+    font-family: 'BebasNeueBold', sans-serif;
+    font-size: 20px;
+    padding: 6px 12px 2px 12px;
+    line-height: 1;
+    cursor: pointer;
+    background: black;
+    color: white;
+}
+
+.back-button:hover {
+    opacity: 0.7;
+}
+
+.company-info {
+    margin-top: 20px;
+}
+
+.company-info p {
+    margin: 5px 0 2px 0;
+}
+
+span.bold {
+    font-weight: 600;
+}
+
+p.list-item {
+    padding-bottom: 5px;
+}
+
+.back-button-wrapper.top {
+    margin-top: 15px;
+}
+
+.back-button-wrapper.bottom {
+    background: white;
+    position: fixed;
+    display: block !important;
+    bottom: 0px;
+    height: 44px;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.back-button.bottom {
+    position: fixed;
+    bottom: 0;
+    margin: 8px 0;
+}
+
+@media (min-width: 900px) {
+    .above-logo {
+        padding: 5px;
+        padding-top: 12px;
+        height: auto;
+    }
+
+    .above-logo img {
+        height: 50px !important;
+        padding-top: 0;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .back-button {
+        font-size: 26px;
+        right: 60px !important;
+    }
+
+    .index-wrapper ul > li {
+        padding: 2px 0;
+    }
+
+    .content-wrapper {
+        padding-bottom: 80px;
+    }
+
+    .back-button-wrapper.top {
+        margin: 30px 60px 10px 0;
+    }
+
+    .back-button-wrapper.bottom {
+        height: 75px;
+    }
+
+    .back-button.bottom {
+        position: unset;
+        margin: 0;
+    }
+
+    .hamburger-menus-wrapper {
+        top: 57px !important;
+    }
+}
